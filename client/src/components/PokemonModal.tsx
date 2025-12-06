@@ -1,4 +1,4 @@
-import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { TYPE_COLORS, type Pokemon, type PokemonType } from "@/lib/pokemon-types";
 import { TypeBadge } from "./TypeBadge";
 import { StatBar } from "./StatBar";
@@ -51,6 +51,9 @@ export function PokemonModal({
               <DialogTitle className="font-display text-3xl font-bold capitalize">
                 {pokemon.name}
               </DialogTitle>
+              <DialogDescription className="sr-only">
+                Details for {pokemon.name} including stats, abilities, and more
+              </DialogDescription>
               <div className="flex gap-2">
                 {pokemon.types.map((type) => (
                   <TypeBadge key={type} type={type} size="md" />

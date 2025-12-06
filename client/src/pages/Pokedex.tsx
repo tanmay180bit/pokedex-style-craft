@@ -76,6 +76,15 @@ export default function Pokedex() {
     setCurrentPage(1);
   }, [searchQuery, selectedTypes, showFavoritesOnly]);
 
+  useEffect(() => {
+    const newTotalPages = Math.ceil(filteredPokemon.length / POKEMON_PER_PAGE);
+    if (currentPage > newTotalPages && newTotalPages > 0) {
+      setCurrentPage(newTotalPages);
+    } else if (newTotalPages === 0 && currentPage !== 1) {
+      setCurrentPage(1);
+    }
+  }, [filteredPokemon.length, currentPage]);
+
   const handleTypeToggle = useCallback((type: PokemonType) => {
     setSelectedTypes((prev) =>
       prev.includes(type) ? prev.filter((t) => t !== type) : [...prev, type]
