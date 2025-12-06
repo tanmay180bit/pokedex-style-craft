@@ -10,7 +10,31 @@ export default {
         md: ".375rem", /* 6px */
         sm: ".1875rem", /* 3px */
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        display: ["Poppins", "sans-serif"],
+      },
       colors: {
+        pokemon: {
+          normal: "#A8A77A",
+          fire: "#EE8130",
+          water: "#6390F0",
+          electric: "#F7D02C",
+          grass: "#7AC74C",
+          ice: "#96D9D6",
+          fighting: "#C22E28",
+          poison: "#A33EA1",
+          ground: "#E2BF65",
+          flying: "#A98FF3",
+          psychic: "#F95587",
+          bug: "#A6B91A",
+          rock: "#B6A136",
+          ghost: "#735797",
+          dragon: "#6F35FC",
+          dark: "#705746",
+          steel: "#B7B7CE",
+          fairy: "#D685AD",
+        },
         // Flat / base colors (regular buttons)
         background: "hsl(var(--background) / <alpha-value>)",
         foreground: "hsl(var(--foreground) / <alpha-value>)",
@@ -96,10 +120,35 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "spin-pokeball": {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        "fade-in-up": {
+          "0%": { opacity: "0", transform: "translateY(20px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "pulse-heart": {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.2)" },
+        },
+        "slide-up": {
+          "0%": { opacity: "0", transform: "translateY(100%)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        "shimmer": {
+          "0%": { backgroundPosition: "-200% 0" },
+          "100%": { backgroundPosition: "200% 0" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "spin-pokeball": "spin-pokeball 1s linear infinite",
+        "fade-in-up": "fade-in-up 0.4s ease-out forwards",
+        "pulse-heart": "pulse-heart 0.3s ease-in-out",
+        "slide-up": "slide-up 0.3s ease-out",
+        "shimmer": "shimmer 1.5s infinite",
       },
     },
   },
