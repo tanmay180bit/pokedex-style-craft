@@ -1,4 +1,4 @@
-#<img width="259" height="241" alt="image" src="https://github.com/user-attachments/assets/92690a27-240b-4bee-b722-4992d2f6a241" />
+#<img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/92690a27-240b-4bee-b722-4992d2f6a241" />
  Pokedex Lite - Pokemon Explorer
 
 A beautiful, responsive web application for exploring Pokemon using the PokeAPI.
