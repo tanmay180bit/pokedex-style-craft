@@ -5,7 +5,7 @@ A beautiful, responsive web application for exploring Pokemon using the PokeAPI.
 
 ## Overview
 
-A lightweight, responsive Pokémon browsing application built using React, TypeScript, Vite, and TailwindCSS.The goal of this project was to practice clean UI design, component-based architecture, and API-driven interactivity and it includes information of 151 originalpokemon.
+A lightweight, responsive Pokémon browsing application built using React, TypeScript, Vite, and TailwindCSS.The goal of this project was to practice clean UI design, component-based architecture, and API-driven interactivity and it includes information of 151 original pokemon.
 
 ## Features
 
@@ -23,7 +23,7 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
  Category           - Technology                                
  
  Frontend Framework - React + TypeScript                         
- Styling            | Tailwind CSS                               
+ Styling            - Tailwind CSS                               
  Build Tool         | Vite                                       
  State              | useState + custom logic                    
  API                | PokéAPI                                    
