@@ -31,7 +31,7 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 
 
 ### Data Source
-- **PokeAPI** (https://pokeapi.co/api/v2/) for all Pokemon data
+**PokeAPI** (https://pokeapi.co/api/v2/) for all Pokemon data
 
 ##  My Project Structure
 
