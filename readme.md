@@ -19,9 +19,7 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 - **Dark/Light Theme**: Toggle between themes with system preference detection
 - **Responsive Design**: Works on mobile, tablet, and desktop
 
----
----
----
+
 
 ## 🛠️ Tech Stack
 
