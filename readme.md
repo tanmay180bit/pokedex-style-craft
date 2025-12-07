@@ -7,8 +7,9 @@ A beautiful, responsive web application for exploring Pokemon using the PokeAPI.
 
 A lightweight, responsive Pokémon browsing application built using React, TypeScript, Vite, and TailwindCSS.The goal of this project was to practice clean UI design, component-based architecture, and API-driven interactivity and it includes information of 151 original pokemon.
 
-## Features
+##🌟Features
 
+---
 - **Pokemon Grid Display**: Beautiful cards with type-based gradient backgrounds
 - **Real-time Search**: Filter Pokemon by name or ID as you type
 - **Type Filtering**: Multi-select filter by Pokemon types (Fire, Water, Grass, etc.)
@@ -18,33 +19,8 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 - **Dark/Light Theme**: Toggle between themes with system preference detection
 - **Responsive Design**: Works on mobile, tablet, and desktop
 
-# Pokedex Lite – Frontend Assignment (DeepSolv)
-
-A clean, responsive, and high-performance Pokédex built with **React + TypeScript + Vite + Tailwind CSS**.  
-Includes search, filtering, pagination, favorites, animations, dark mode, and an optional OAuth demo.
-
 ---
-
-## 🌟 Features
-
-### ✅ **Mandatory Features**
-- Fetch Pokémon from **PokéAPI**
-- Search Pokémon by name
-- Filter by type (Fire, Water, Grass, etc.)
-- Client-side pagination (20 per page)
-- Favorite / unfavorite with UI state
-- Opens Pokémon details in a **modal with animation**
-- Fully responsive UI (mobile + desktop)
-- Clean + maintainable component structure
-- State managed using `useState`, `useEffect`
-
-### 🎁 **Bonus Features (Implemented)**
-- Smooth **page transition animations**
-- Pokémon **card hover animations**
-- Modal open/close animations
-- **Dark / Light mode switch**
-- Simple **OAuth Demo** (Google button mock + page routing)
-
+---
 ---
 
 ## 🛠️ Tech Stack
