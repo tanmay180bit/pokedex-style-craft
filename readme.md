@@ -20,9 +20,9 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 
 ## Tech Stack
 
- Category           | Technology                                
+ Category           - Technology                                
  
- Frontend Framework | React + TypeScript                         
+ Frontend Framework - React + TypeScript                         
  Styling            | Tailwind CSS                               
  Build Tool         | Vite                                       
  State              | useState + custom logic                    
@@ -32,7 +32,7 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 
 
 ### Data Source
-**PokeAPI** (https://pokeapi.co/api/v2/) for all Pokemon data
+**PokeAPI** (https://pokeapi.co/) for all Pokemon data
 
 ##  My Project Structure
 
