@@ -1,5 +1,6 @@
 <img width="20" height="20" alt="image" src="https://github.com/user-attachments/assets/92690a27-240b-4bee-b722-4992d2f6a241" />
- Pokedex Lite - Pokemon Explorer
+ Pokedex Lite - Pokemon Explorer - Deployed Link- (https://pokedex-style-craft.vercel.app/)
+ 
 
 A beautiful, responsive web application for exploring Pokemon using the PokeAPI.
 
