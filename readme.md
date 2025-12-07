@@ -38,24 +38,23 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 Style-Craft/
 │
 ├── client/
-│   ├── src/
-│   │   ├── pages/
-│   │   │   ├── PokedexPage.tsx
-│   │   │   └── AuthDemo.tsx
-│   │   ├── components/
-│   │   │   └── (Modal, Card, Filters, etc.)
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   │
-│   ├── public/
-│   └── index.html
+│ ├── src/
+│ │ ├── pages/
+│ │ │ ├── PokedexPage.tsx
+│ │ │ ├── AuthDemo.tsx
+│ │ ├── components/
+│ │ │ ├── Modal, Card, Filters, etc.
+│ │ ├── App.tsx
+│ │ ├── main.tsx
+│ ├── public/
+│ │ ├── index.html
 │
 ├── package.json
 ├── package-lock.json
 ├── tailwind.config.ts
 ├── tsconfig.json
 ├── vite.config.ts
-└── README.md
+├── README.md
 
 
 
