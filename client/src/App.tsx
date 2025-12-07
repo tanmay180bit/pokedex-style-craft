@@ -1,29 +1,50 @@
-import { Switch, Route } from "wouter";
-import { queryClient } from "./lib/queryClient";
-import { QueryClientProvider } from "@tanstack/react-query";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import Pokedex from "@/pages/Pokedex";
-import NotFound from "@/pages/not-found";
+import React, { useState } from "react";
+import { PokedexPage } from "./pages/PokedexPage";
+import { AuthDemo } from "./pages/AuthDemo";
 
-function Router() {
+export default function App() {
+  const [view, setView] = useState<"pokedex" | "auth">("pokedex");
+
   return (
-    <Switch>
-      <Route path="/" component={Pokedex} />
-      <Route component={NotFound} />
-    </Switch>
+    <div className="min-h-screen bg-background text-foreground">
+      {/* Small switch bar at the top */}
+      <div className="border-b border-border bg-background/80">
+        <div className="container flex gap-2 py-2 text-xs">
+          
+          {/* Switch to Pokedex */}
+          <button
+            type="button"
+            onClick={() => setView("pokedex")}
+            className={`rounded-full border px-3 py-1 transition ${
+              view === "pokedex"
+                ? "bg-foreground text-background"
+                : "bg-background text-foreground hover:bg-muted"
+            }`}
+          >
+            Pokedex
+          </button>
+
+          {/* Switch to OAuth Demo */}
+          <button
+            type="button"
+            onClick={() => setView("auth")}
+            className={`rounded-full border px-3 py-1 transition ${
+              view === "auth"
+                ? "bg-foreground text-background"
+                : "bg-background text-foreground hover:bg-muted"
+            }`}
+          >
+            OAuth Demo
+          </button>
+        </div>
+      </div>
+      {/* Animated View */}
+      <div
+        key={view}
+        className="animate-in fade-in-0 slide-in-from-right duration-300"
+      >
+        {view === "pokedex" ? <PokedexPage /> : <AuthDemo />}
+      </div>
+    </div>
   );
 }
-
-function App() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <TooltipProvider>
-        <Toaster />
-        <Router />
-      </TooltipProvider>
-    </QueryClientProvider>
-  );
-}
-
-export default App;
