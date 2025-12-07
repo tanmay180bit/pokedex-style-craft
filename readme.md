@@ -18,21 +18,60 @@ A lightweight, responsive Pokémon browsing application built using React, TypeS
 - **Dark/Light Theme**: Toggle between themes with system preference detection
 - **Responsive Design**: Works on mobile, tablet, and desktop
 
-## Tech Stack
+# Pokedex Lite – Frontend Assignment (DeepSolv)
 
- Category           - Technology                                
- 
- Frontend Framework - React + TypeScript                         
- Styling            - Tailwind CSS                               
- Build Tool         | Vite                                       
- State              | useState + custom logic                    
- API                | PokéAPI                                    
- Deployment         | Works with Vercel / Netlify / GitHub Pages 
- Version Control    | Git + GitHub                               
+A clean, responsive, and high-performance Pokédex built with **React + TypeScript + Vite + Tailwind CSS**.  
+Includes search, filtering, pagination, favorites, animations, dark mode, and an optional OAuth demo.
 
+---
 
-### Data Source
-**PokeAPI** (https://pokeapi.co/) for all Pokemon data
+## 🌟 Features
+
+### ✅ **Mandatory Features**
+- Fetch Pokémon from **PokéAPI**
+- Search Pokémon by name
+- Filter by type (Fire, Water, Grass, etc.)
+- Client-side pagination (20 per page)
+- Favorite / unfavorite with UI state
+- Opens Pokémon details in a **modal with animation**
+- Fully responsive UI (mobile + desktop)
+- Clean + maintainable component structure
+- State managed using `useState`, `useEffect`
+
+### 🎁 **Bonus Features (Implemented)**
+- Smooth **page transition animations**
+- Pokémon **card hover animations**
+- Modal open/close animations
+- **Dark / Light mode switch**
+- Simple **OAuth Demo** (Google button mock + page routing)
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|---------|--------|
+| Framework | React + TypeScript |
+| Build | Vite |
+| Styling | Tailwind CSS |
+| Animations | Tailwind Animate utilities |
+| State | useState + custom logic |
+| API | PokéAPI |
+| Routing Switch | Local view state |
+| Deployment | GitHub Pages (optional) |
+
+---
+
+## 📡 Data Source
+
+All Pokémon data is fetched from the official PokeAPI:
+
+🔗 https://pokeapi.co/api/v2/
+
+---
+
+## 📁 Project Structure
+
 
 ##  My Project Structure
 
